@@ -9,8 +9,8 @@ class CartController extends Controller
     public function shop()
     {   
         $products = Products::all();
-        return  dd($products);
-        // return view('shop')->withTitle('E-COMMERCE STORE | SHOP')->with(['products' => $products]);
+        // return $products;
+        return view('shop')->withTitle('E-COMMERCE STORE | SHOP')->with(['products' => $products]);
     }
 
     public function cart()  {

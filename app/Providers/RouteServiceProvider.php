@@ -27,7 +27,7 @@ class RouteServiceProvider extends ServiceProvider
      * @var string|null
      */
      protected $namespace = 'App\\Http\\Controllers';
-
+    //Teo Teo
     /**
      * Define your route model bindings, pattern filters, etc.
      *
